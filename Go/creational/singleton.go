@@ -1,5 +1,6 @@
 package singleton
 
+// Singleton interface
 type Singleton interface {
 	AddOne() int
 }
@@ -10,6 +11,7 @@ type singleton struct {
 
 var instance *singleton
 
+// GetInstance Function
 func GetInstance() Singleton {
 	return nil
 }
